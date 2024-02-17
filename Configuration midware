@@ -1,0 +1,10 @@
+// middleware/customMiddleware.js
+const customMiddleware = (config) => {
+  return (req, res, next) => {
+    // Use config here to customize middleware behavior
+    next();
+  };
+};
+
+module.exports = customMiddleware;
+￼Enter
