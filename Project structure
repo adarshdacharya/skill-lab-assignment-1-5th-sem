@@ -1,0 +1,9 @@
+project/
+├── middleware/
+│   └── customMiddleware.js
+├── routes/
+│   ├── authRoutes.js
+│   └── blogRoutes.js
+├── index.js
+└── package.json
+￼Enter
