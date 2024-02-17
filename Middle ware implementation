@@ -1,0 +1,8 @@
+// middleware/commonMiddleware.js
+const commonMiddleware = (req, res, next) => {
+  // Add common functionalities here
+  next();
+};
+
+module.exports = commonMiddleware;
+￼Enter
